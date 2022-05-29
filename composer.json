@@ -1,0 +1,20 @@
+{
+    "name": "user/leetcode",
+    "description": "leetcode solutions",
+    "authors": [
+        {
+            "name": "BevzaDmytro",
+            "email": "bevzadv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "easy/",
+            "medium/",
+            "hard/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
